@@ -1,6 +1,6 @@
 {
-    "name": "Dev Tools (neovim, ripgrep, fzf)",
-    "id": "dev-tools",
+    "name": "Neovim Tools (neovim, ripgrep, fzf)",
+    "id": "neovim-tools",
     "version": "1.0.0",
     "description": "Installs neovim, ripgrep, and fzf from GitHub releases",
     "options": {

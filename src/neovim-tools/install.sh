@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "Activating feature 'dev-tools'"
+echo "Activating feature 'neovim-tools'"
 
 # Ensure curl is available
 if ! command -v curl > /dev/null 2>&1; then
@@ -99,4 +99,4 @@ install_neovim
 install_ripgrep
 install_fzf
 
-echo "Dev tools installation complete."
+echo "Neovim tools installation complete."

@@ -2,7 +2,7 @@
     "pinned_versions": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "dev-tools": {
+            "neovim-tools": {
                 "neovimVersion": "v0.10.4",
                 "ripgrepVersion": "14.1.1",
                 "fzfVersion": "v0.62.0"
