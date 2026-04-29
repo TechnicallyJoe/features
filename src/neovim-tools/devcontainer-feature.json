@@ -1,0 +1,26 @@
+{
+    "name": "Neovim Tools (neovim, ripgrep, fzf)",
+    "id": "neovim-tools",
+    "version": "0.1.0",
+    "description": "Installs neovim, ripgrep, and fzf from GitHub releases",
+    "options": {
+        "neovimVersion": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of neovim to install (e.g. 'v0.10.4' or 'latest')"
+        },
+        "ripgrepVersion": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of ripgrep to install (e.g. '14.1.1' or 'latest')"
+        },
+        "fzfVersion": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of fzf to install (e.g. 'v0.62.0' or 'latest')"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
