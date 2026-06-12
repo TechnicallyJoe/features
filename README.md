@@ -42,18 +42,46 @@ Installs [neovim](https://github.com/neovim/neovim), [ripgrep](https://github.co
 }
 ```
 
+### `terraform-motf`
+
+Installs [motf](https://github.com/TechnicallyJoe/terraform-motf), a monorepo tool for Terraform modules, from GitHub releases.
+
+#### Usage
+
+```jsonc
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/TechnicallyJoe/features/terraform-motf:0": {}
+    }
+}
+```
+
+#### Options
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| `version` | string | `latest` | Version of motf (e.g. `v0.8.1` or `latest`) |
+
 ## Repo Structure
 
 ```
 ├── src
-│   └── neovim-tools
+│   ├── neovim-tools
+│   │   ├── devcontainer-feature.json
+│   │   └── install.sh
+│   └── terraform-motf
 │       ├── devcontainer-feature.json
 │       └── install.sh
 ├── test
-│   └── neovim-tools
+│   ├── neovim-tools
+│   │   ├── test.sh
+│   │   ├── scenarios.json
+│   │   └── pinned_versions.sh
+│   └── terraform-motf
 │       ├── test.sh
 │       ├── scenarios.json
-│       └── pinned_versions.sh
+│       └── pinned_version.sh
 ```
 
 ## Publishing

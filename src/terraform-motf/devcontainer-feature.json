@@ -1,0 +1,16 @@
+{
+    "name": "Terraform MOTF",
+    "id": "terraform-motf",
+    "version": "0.1.0",
+    "description": "Installs motf (terraform-motf), a monorepo tool for Terraform modules, from GitHub releases",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of motf to install (e.g. 'v0.8.1' or 'latest')"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
