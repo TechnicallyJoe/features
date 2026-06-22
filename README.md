@@ -14,7 +14,7 @@ Installs [neovim](https://github.com/neovim/neovim), [ripgrep](https://github.co
 {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-        "ghcr.io/TechnicallyJoe/features/neovim-tools:1": {}
+        "ghcr.io/technicallyjoe/features/neovim-tools:1": {}
     }
 }
 ```
@@ -33,7 +33,7 @@ Installs [neovim](https://github.com/neovim/neovim), [ripgrep](https://github.co
 {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-        "ghcr.io/TechnicallyJoe/features/neovim-tools:1": {
+        "ghcr.io/technicallyjoe/features/neovim-tools:1": {
             "neovimVersion": "v0.10.4",
             "ripgrepVersion": "14.1.1",
             "fzfVersion": "v0.62.0"
@@ -44,7 +44,7 @@ Installs [neovim](https://github.com/neovim/neovim), [ripgrep](https://github.co
 
 ### `terraform-motf`
 
-Installs [motf](https://github.com/TechnicallyJoe/terraform-motf), a monorepo tool for Terraform modules, from GitHub releases.
+Installs [motf](https://github.com/technicallyjoe/terraform-motf), a monorepo tool for Terraform modules, from GitHub releases.
 
 #### Usage
 
@@ -52,7 +52,7 @@ Installs [motf](https://github.com/TechnicallyJoe/terraform-motf), a monorepo to
 {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-        "ghcr.io/TechnicallyJoe/features/terraform-motf:0": {}
+        "ghcr.io/technicallyjoe/features/terraform-motf:0": {}
     }
 }
 ```
